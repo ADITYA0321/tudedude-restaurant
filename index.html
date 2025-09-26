@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Bella Vista</h1>
+                    <span class="tagline"> Authentic italian Cuisine </span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="Home">Home</a> </li>
+                    <li><a href="Menu">Menu</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2> Welcome to Bella Vista</h2>
+            <p>Experience the authentic taste of Italy in the heart of the city.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Make reservation</a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title" >Our Menu</h2>
+            <p class="section-subtitle">Discover our carefully crafted dishes.</p>
+            
+
+            <div class="menu-categories">
+                <div class="menu-category">
+                    <h3>Apptizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4> Bruschetta Italiana <h4>
+                                    <p> Fresh tomatos, basil and mozzarella on tosted bread.</p>
+
+                            </div>
+                            <span class="price">$12</span>
+                        </div>
+                          <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4> Antipasto Platter <h4>
+                                    <p> Lorem ipsum dolor sit amet  blanditiis dicta perspiciatis, esse neque nemo exercitationem!</p>
+
+                            </div>
+                            <span class="price">$18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"> About Bella vista</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 1985 by the Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus rem architecto iste eius explicabo hic recusandae repellendus harum suscipit consectetur, cupiditate labore magni. </p>
+                    <p>every dish is Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis ut dolorem facilis labore minima? Dolor at dolore enim, soluta amet harum.</p>
+                </div>
+                 <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </div>
+            </div>
+               
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+
+
+                    <div class="contact-item">
+                        <strong>Address</strong>
+                        <p>123 Italian street, city </p>
+                    </div>
+
+                     <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <p> 9579352948</p>
+                    </div>
+
+                     <div class="contact-item">
+                        <strong>Email</strong>
+                        <p>adityar9890@gmail.com </p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Make a Reservation</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">full name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                         <div class="form-group">
+                            <label for="date">Reservation Date:</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                         <div class="form-group">
+                            <label for="time">Time:</label>
+                            <select  id="time" name="name" required>
+                                <option value="">Select Time</option>
+                                <option value="18:00">6:00 PM </option>
+                                <option value="19:00">7:00 PM </option>
+                                <option value="20:00">8:00 PM </option>
+                                <option value="21:00">9:00 PM </option>
+                            </select>
+                        </div>
+
+                           <div class="form-group">
+                            <label for="guests">Number of Guest:</label>
+                            <select  id="guests" name="guests" required>
+                                <option value="">Select Guests</option>
+                                <option value="1"> 1 Guest </option>
+                                <option value="2"> 2 Guest </option>
+                                <option value="3"> 3 Guest </option>
+                                <option value="4"> 4 Guest </option>
+                                 <option value="5"> 5+ Guest </option>
+                            </select>
+                        </div>
+                         <div class="form-group">
+                            <label for="messege">Special Requests:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special dietary requirements or requests... "></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Reservation</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+
+
+</body>
+
+</html>
